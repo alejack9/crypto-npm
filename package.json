@@ -1,0 +1,29 @@
+{
+  "name": "crypto-npm",
+  "version": "1.0.0",
+  "description": "A small package to encrypt and decrypt messages using a pseudorandom function",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejack9/crypto-npm.git"
+  },
+  "keywords": [
+    "crypto",
+    "encrypt",
+    "decrypt",
+    "pseudorandom",
+    "pseudo-random"
+  ],
+  "author": "Alessandro Giacchè",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/alejack9/crypto-npm/issues"
+  },
+  "homepage": "https://github.com/alejack9/crypto-npm#readme",
+  "dependencies": {
+    "seed-random": "^2.2.0"
+  }
+}
