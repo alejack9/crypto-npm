@@ -1,4 +1,5 @@
 const seedF = require("seed-random");
+const assert = require("assert");
 
 /**
  *

@@ -13,12 +13,14 @@ npm install crypto-npm
 ## Usage
 
 ```javascript
+const assert = require("assert");
 const { getKey, encrypt, decrypt } = require("crypto-npm");
 
 const message = "The secret message";
 const key = getKey("the seed", message.length);
 const encrypted = encrypt(message, key);
 const decrypted = decrypt(encrypted, key);
+
 assert(message === decrypted);
 ```
 

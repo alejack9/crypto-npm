@@ -1,4 +1,5 @@
 const assert = require("assert");
+
 /**
  *
  * @param {string} a
